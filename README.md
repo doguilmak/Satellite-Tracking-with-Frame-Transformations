@@ -9,7 +9,7 @@ Step by step how the calculations are made is given in the **or_ct_h.pdf**  file
 
 **spatial1.m, spatial2.m and spatial3.m** functions created for the rotation. Rotation is really important in 3D coordinate transformations. They are realized by 3x3 rotation matrices perspective for three axes of the cartesian frame. 
 
-![result](ResultoftheEx_4.jpg)
+![result](ResultoftheEx_4.png)
 
 On the polar graph you can see the orbit of the satellite, which is the result and purpose of Exercise 4.
 
