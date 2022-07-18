@@ -13,6 +13,8 @@ $\omega, v$ - define orientation of the orbit and satellite position in orbit
 
 $\Omega, i$ - define orientation of the orbit in space (i.e. its orientation in RA)
 
+<br>
+
 We can define satellite’s position in space, by defining this in its Orbital Frame (OR):
 
 **Central Point** – Center of Earth masses
