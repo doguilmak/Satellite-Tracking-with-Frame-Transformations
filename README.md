@@ -16,8 +16,11 @@ $\Omega, i$ - define orientation of the orbit in space (i.e. its orientation in 
 We can define satellite’s position in space, by defining this in its Orbital Frame (OR):
 
 **Central Point** – Center of Earth masses
+
 **Primary axis - (z)** – Normal to orbital frame
+
 **Secondary axis - (x)** – Intersects the perigee
+
 **Third order axis - (y)** - Orthogonal in right-handed frame
 
 $K$ - ascending node of the satellite
