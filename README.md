@@ -128,7 +128,7 @@ $$rECI = R_z(-\Omega) ⋅ R_x(-i) ⋅ R_z(-\omega) ⋅ e^{OR}$$
 
 	eRA = spatial3(-OM)*spatial1(-iq)*spatial3(-om)*eOR
 
-## Calculation of the satellite position in the observer's frame (horizontal - H)
+## Calculation of the Satellite Position in the Observer's Frame (horizontal - H)
 
 The position in OR frame can also be transformed to the observer’s (horizontal) H system. We will then know the satellite's visibility in the local sky. The starting steps are the same as in the previous transformation (transformation to RA). Then we recalculate to HA frame (iterations for ST):
 
