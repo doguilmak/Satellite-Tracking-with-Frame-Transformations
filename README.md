@@ -28,20 +28,32 @@ We can define satellite’s position in space, by defining this in its Orbital F
 <br>
 
 $K$ - ascending node of the satellite
+
 $K'$ - descending node
+
 $E$ - Earth (coincides with one of the focal points of the ellipse)
+
 $P$ - perigee – point in orbit closest to Earth, located at main
 axis of orbital ellipse)
+
 $A$ - apogee – the most distant point of the orbit
+
 $a_0$ - semi-major axis of orbital ellipse
+
 $e_0$ - eccentricity of orbital ellipse
+
 $i$ - inclination angle between orbital plane and celestial
 equator
+
 $\Omega$ - right-ascension of ascending node (RAAN)
+
 $\omega$ - argument of perigee – angular distance of perigee from
 ascending node
+
 $v$ - true anomaly – angular distance of satellite from perigee
+
 $r$ - distance of the satellite from the center of Earth masses
+
 ![rotation](rotate.jpg)
 
 **spatial1.m, spatial2.m and spatial3.m** functions created for the rotation. Rotation is really important in 3D coordinate transformations. They are realized by $3x3$ rotation matrices perspective for three axes of the cartesian frame. 
