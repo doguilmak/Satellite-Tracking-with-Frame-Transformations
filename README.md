@@ -122,7 +122,7 @@ b_0 ⋅ sin E \\
     b0*sin(E); 
     zeros(1, length(ST))]
 
-The transformation from the OR orbital frame to the right-ascension frame RA reads:
+The transformation from the $OR$ orbital frame to the right-ascension frame $RA$ reads:
 
 $$rECI = R_z(-\Omega) ⋅ R_x(-i) ⋅ R_z(-\omega) ⋅ e^{OR}$$
 
