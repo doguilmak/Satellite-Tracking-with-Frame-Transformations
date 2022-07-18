@@ -25,6 +25,8 @@ We can define satellite’s position in space, by defining this in its Orbital F
 
 **Third order axis - (y)** - Orthogonal in right-handed frame
 
+<br>
+
 $K$ - ascending node of the satellite
 $K'$ - descending node
 $E$ - Earth (coincides with one of the focal points of the ellipse)
