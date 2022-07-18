@@ -54,6 +54,8 @@ $v$ - true anomaly – angular distance of satellite from perigee
 
 $r$ - distance of the satellite from the center of Earth masses
 
+
+<img src="rotate.jpg" alt="drawing" width="200"/>
 ![rotation](rotate.jpg)
 
 **spatial1.m, spatial2.m and spatial3.m** functions created for the rotation. Rotation is really important in 3D coordinate transformations. They are realized by $3x3$ rotation matrices perspective for three axes of the cartesian frame. 
