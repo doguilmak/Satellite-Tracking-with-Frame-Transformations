@@ -128,15 +128,15 @@ $$rECI = R_z(-\Omega) ⋅ R_x(-i) ⋅ R_z(-\omega) ⋅ e^{OR}$$
 
 	eRA = spatial3(-OM)*spatial1(-iq)*spatial3(-om)*eOR
 
-## Calculation of the Satellite Position in the Observer's Frame (horizontal - H)
+## Calculation of the Satellite Position in the Observer's Frame (horizontal - $H$)
 
-The position in OR frame can also be transformed to the observer’s (horizontal) H system. We will then know the satellite's visibility in the local sky. The starting steps are the same as in the previous transformation (transformation to RA). Then we recalculate to HA frame (iterations for ST):
+The position in OR frame can also be transformed to the observer’s (horizontal) $H$ system. We will then know the satellite's visibility in the local sky. The starting steps are the same as in the previous transformation (transformation to $RA$). Then we recalculate to $HA$ frame (iterations for $ST$):
 
 $$e_{ST}^{HA} = P_2 ⋅ R_3(ST) ⋅ e^{RA}$$
 
 	eHAST = P2 * spatial3(ST) * eRA
 
-Subsequently we need to reduce the difference in directions and distances due to the distance between the Earth's mass center and the observer. For this purpose, we find the position of the observer in the HA system. It does not depend on time and does not require iterations.
+Subsequently we need to reduce the difference in directions and distances due to the distance between the Earth's mass center and the observer. For this purpose, we find the position of the observer in the $HA$ system. It does not depend on time and does not require iterations.
 
 $$e_{obs}^{HA} = \begin{vmatrix*}[r]  
 R ⋅ cos \varphi \\
@@ -146,7 +146,7 @@ R ⋅ sin\varphi
 
 	eHAobs = [R * cos(phi); 0; R * sin(phi)];
 
-Then we must use the position of the observer in HA, for reducing the vector to the satellite, and transform it to H:
+Then we must use the position of the observer in $HA$, for reducing the vector to the satellite, and transform it to $H$:
 
 $$e_{ST}^{H} = R_3(\pi) ⋅ R_2(\dfrac{\phi} 2 - \phi) ⋅ (e_{ST}^{HA}  - e^{HA} ⋅ obs)$$
 
