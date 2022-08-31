@@ -94,7 +94,9 @@ sin\theta & cos\theta & 0\\
 
 <br>
 
-To calculate $rECI$, we need to make matrix multiplication using our rotation matrices.
+To calculate $rECI$, we need to make matrix multiplication using our rotation matrices. We will make calculations under the *Calculation of Satellite Position in Conventional Terrestrial Reference Frame* topic.
+
+rECI as Python 3.7:
 
 $$rECI = R_z(-\Omega) ⋅ R_x(-i) ⋅ R_z(-\omega) ⋅ rPQW$$
 
